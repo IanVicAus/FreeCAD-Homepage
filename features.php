@@ -120,7 +120,7 @@
             <p class="section-body whitelinks">
               <?php echo _('All FreeCAD objects are natively parametric, meaning their shape can be based on
                 <a href="https://wiki.freecad.org/Property" title="Property">properties</a> such as numeric values, texts, on/off buttons,
-                or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow to maintain
+                or even other objects. All shape changes are recalculated on demand, recorded by an undo/redo stack, and allow you to maintain
                 a precise modelling history. Properties of one object can drive the value of properties of other objects, allowing
                 complex, custom parametric chains that could only exist in your wildest dreams. New parametric objects are
                 <a href=https://wiki.freecad.org/Scripted_objects>easy to code</a>.'); ?>
@@ -144,12 +144,12 @@
           <div class="col-lg-7 text-light text-center text-lg-start px-md-4 rounded text-backround">
             <h3 class="section-title mt-3"><?php echo _('Assembly solutions for every need'); ?></h3>
             <p class="section-body whitelinks">
-              <?php echo _('FreeCAD offers since long several great community-made add-on assembly
+              <?php echo _('FreeCAD has for a long time offered several great community-made add-on assembly
                   workbenches that use different solvers and even solver-free workflows to assemble
                   the parts you create. With FreeCAD 1.0, a new built-in assembly workbench is also
                   included, based on the
                   <a href=https://github.com/Ondsel-Development/OndselSolver>Ondsel Solver</a>.
-                  This workbench allows to define 3D constraints between parts, assemble the
+                  This workbench allows you to define 3D constraints between parts, assemble the
                   different components of a model, and animate everything.'); ?>
             </p>
           </div>
@@ -170,7 +170,7 @@
             <h3 class="section-title mt-3"><?php echo _('Also for architects'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('Until version 1.0, FreeCAD had a built-in Arch workbench and
-              an external BIM workbench added on top of that. With version 1.0, both of them have
+              an external BIM workbench added on top of that. With version 1.0, they have
               merged and now we have a built-in BIM workbench. Now you can do your building and
               construction related projects right out of the box.'); ?>
             </p>
@@ -188,7 +188,7 @@
             <h3 class="section-title mt-3"><?php echo _('Python everywhere'); ?></h3>
             <p class="section-body whitelinks">
               <?php echo _('While the FreeCAD core functionality is coded in C++ for robustness and performance,
-                  large parts of the external layers,  workbenches and almost all the communication between
+                  large parts of the external layers, workbenches and almost all the communication between
                   the core and the user interface is coded in <a href=https://python.org>Python</a>,
                   a flexible, user-friendly, easy to learn programming language. From Python code, you are able to
                   do just <a href=https://wiki.freecad.org/Power_users_hub>anything in FreeCAD</a>, from simple one-line
